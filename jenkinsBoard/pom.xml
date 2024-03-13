@@ -22,21 +22,25 @@
 			<version>1.18.18</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<dependency> <!-- 액션태그 c, jstl lib -->
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+		
 		<dependency> <!-- mybatis-spring -->
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
 			<version>2.0.6</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.5.6</version>
 		</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>jenkinsBoard</finalName>
