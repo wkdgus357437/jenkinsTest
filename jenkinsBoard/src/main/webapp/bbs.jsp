@@ -120,6 +120,7 @@ text-decoration: none;
 				for(int i = 0; i <list.size(); i ++){
 				
 				%>
+				<!-- 특정문자 ( '<' 또는 '>'로 인하여 <script>작성하여 버그 발생 시킬수 있으므로, 대체문자를 연결해주어야함(제목과 내용에 추가하기) -->
 					<tr>
 						<td><%= list.get(i).getBbsID() %></td>
 						<td><a href="view.jsp?bbsID=<%=list.get(i).getBbsID()%>"><%= list.get(i).getBbsTitle().replaceAll(" ","&nbsp;").replaceAll("<","&lt;").replace(">","&gt;").replace("\n","<br>") %></a></td>
