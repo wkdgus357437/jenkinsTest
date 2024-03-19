@@ -11,7 +11,7 @@ public class UserDAO {
 	private PreparedStatement pstmt; // 
 	private ResultSet rs; // 정보 담을 곳
 	
-	//mysql 실직적으로 접속하는 정보, + lib에 MySQL 라이브러리 추가하기(WEB-INF ->lib 확인)
+	//mysql 실직적으로 접속하는 정보, + lib에 MySQL 라이브러리 추가
 	public UserDAO() {
 		try {
 			//어느 프로젝트에 연결할 것인지
